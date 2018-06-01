@@ -65,15 +65,7 @@
     </FrameLayout>
 
 
-
-
-
-
-
-
-
-
-    <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
+        <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
         android:id="@+id/coverFlow"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
