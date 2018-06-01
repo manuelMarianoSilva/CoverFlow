@@ -1,4 +1,4 @@
-package com.example.yonoc.coverflow;
+package com.example.yonoc.coverflow.Support;
 
 /**
  * Created by yonoc on 5/22/2018.

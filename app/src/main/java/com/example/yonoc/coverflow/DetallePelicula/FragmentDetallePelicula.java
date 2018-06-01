@@ -8,8 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.yonoc.coverflow.Support.Pelicula;
+
+
 import com.example.yonoc.coverflow.R;
+import com.example.yonoc.coverflow.Support.Pelicula;
 import com.flaviofaria.kenburnsview.KenBurnsView;
 import com.squareup.picasso.Picasso;
 
