@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
-<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,14 +7,6 @@
     android:orientation="vertical"
     tools:context="com.example.yonoc.coverflow.MainActivity"
     android:background="#1a2121">
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation = "vertical"
-        android:background="#1a2121">
-
-
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -49,8 +39,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="top"
-            android:layout_marginTop="50dp"
-
             >
 
             <EditText
@@ -58,20 +46,13 @@
                 android:layout_height="wrap_content"
                 android:hint="Titulo, Actor, Cine..."
                 android:backgroundTint="#c2c2c2"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
                 />
 
         </android.support.design.widget.TextInputLayout>
 
     </FrameLayout>
-
-
-
-
-
-
-
-
-
 
     <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
         android:id="@+id/coverFlow"
@@ -81,14 +62,13 @@
         app:coverHeight="200dp"
         app:coverWidth="150dp"
         app:maxScaleFactor="1.5"
-        app:reflectionGap="0px"
+        app:reflectionGap="-130px"
         app:rotationThreshold="0.5"
         app:scalingThreshold="0.5"
         app:spacing="0.6"
         >
-        
 
-        
+
     </it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow>
 
     <TextSwitcher
@@ -104,17 +84,3 @@
     </TextSwitcher>
 
 </FrameLayout>
-
-    <android.support.design.widget.NavigationView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:menu="@menu/menu_layout"
-        android:id="@+id/navigationView"
-        >
-
-    </android.support.design.widget.NavigationView>
-
-</android.support.v4.widget.DrawerLayout>
-
-

@@ -18,9 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CoverFlowClick.PeliculaDetalle" />
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".ThirdActivity"></activity>
+        <activity android:name=".DetallePelicula.ActivityPeliculaDetalle"></activity>
     </application>
 
 </manifest>

@@ -6,9 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.TextSwitcher;
 import android.widget.TextView;
 
+import com.example.yonoc.coverflow.Support.Pelicula;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
