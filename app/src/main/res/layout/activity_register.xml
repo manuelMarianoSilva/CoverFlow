@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1a2121"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/mt_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp">
+    </View>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutUsernameRegister"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#f6f6f6"
+        android:layout_marginTop="50dp">
+
+
+        <EditText
+            android:id="@+id/editTextUsernameRegister"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="  Username"
+            android:textColor="#f6f6f6"
+            android:textColorHint="#f6f6f6"
+            android:drawableLeft="@drawable/userblanco24px"
+            android:layout_gravity="center"
+            android:backgroundTint="#f6f6f6" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutMaildRegister"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#f6f6f6"
+        >
+
+
+        <EditText
+            android:id="@+id/editTextMailRegister"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="  Mail"
+            android:textColor="#f6f6f6"
+            android:textColorHint="#f6f6f6"
+            android:drawableLeft="@drawable/userblanco24px"
+            android:layout_gravity="center"
+            android:backgroundTint="#f6f6f6" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#f6f6f6">
+
+        <EditText
+            android:id="@+id/editTextPasswordRegister"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="  Password"
+            android:textColor="#f6f6f6"
+            android:textColorHint="#f6f6f6"
+            android:drawableLeft="@drawable/lock24px"
+            android:layout_gravity="center"
+            android:backgroundTint="#f6f6f6"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutConfirmPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#f6f6f6">
+
+        <EditText
+            android:id="@+id/editTextConfirmPasswordRegister"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="  Confirm Password"
+            android:textColor="#f6f6f6"
+            android:textColorHint="#f6f6f6"
+            android:drawableLeft="@drawable/lock24px"
+            android:layout_gravity="center"
+            android:backgroundTint="#f6f6f6"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/buttonSingUpRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SING UP"
+        android:layout_toRightOf="@+id/textViewHaveaAccount"
+        android:textColor="#05eea1"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:onClick="buttonSingUp"
+        />
+
+
+</LinearLayout>
